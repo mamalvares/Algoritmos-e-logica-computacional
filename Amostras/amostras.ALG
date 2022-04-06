@@ -6,18 +6,19 @@ Algoritmo "amostras"
 // Data atual  : 4/6/2022
 Var
    // Seção de Declarações das variáveis
-   a,c:inteiro
-   m:real
+   contador:inteiro
+   media,amostra,maior,menor,soma:real
 
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
-   para c de 1 ate 5 faca
+   soma<-0
+   para contador de 1 ate 5 faca
       escreval("Digite a quantidade de amostras:")
-      leia(a)
+      leia(amostra)
+      soma<-(soma+amostra)
+      media<-(soma/5)
    fimpara
 
    limpatela
-
-      m<-a+a+a+a+a/5
-      escreval("A média da quantidade de amostras é:",m)
+   escreval("A media da quantidade de amostras é:",media)
 Fimalgoritmo
