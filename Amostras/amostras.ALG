@@ -11,10 +11,13 @@ Var
 
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
+   escreval("Quantas pesquisas foram feitas?")
+   leia(contador)
+   
+   limpatela
 
    soma<-0
-   contador<-0
-   para contador de 1 ate 5 faca
+   para contador de 1 ate contador faca
       escreval("Digite a quantidade de amostras na pesquisa.",contador)
       leia(amostra)
       contador <-contador + 1
