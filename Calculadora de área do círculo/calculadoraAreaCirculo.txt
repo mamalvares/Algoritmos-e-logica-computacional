@@ -1,0 +1,5 @@
+iniciar
+entrada do raio do círculo em centímetros
+cálculo da área do círculo utilizando o raio recebido na entrada e aplicando na fórmula a=pi*r^2
+saída do valor calculado da área do círculo
+fim
